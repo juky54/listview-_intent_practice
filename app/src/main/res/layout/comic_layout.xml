@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:layout_marginTop="10dp">
+    <ImageView
+        android:id="@+id/imvComicThumb"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/doraemon"/>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtComicName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doraemon"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txtComicPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#F44336"/>
+    </LinearLayout>
+
+</LinearLayout>
